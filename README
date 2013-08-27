@@ -15,4 +15,4 @@ c. Techniques Summary:  JavaScript, PHP, MySQL, HTML, CSS, Twitter's bootstrap
 (The initiation of system is triggered by a PHP file, in which a MySQL scripts for creating the database and PHP functions 
 are included. Suggested Server OS is Ubuntu Server 12.04 64bit with LAMP; There are a number of dependent open source library had been utilized.)
 
-d. a living intance can be visited at url: http://uc-star.info/
+d. a living intance can be visited at url: http://uc-star.info/v1.9.uc-star.info/
