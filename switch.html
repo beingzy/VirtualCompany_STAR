@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+   <meta charset="utf-8">
+   <title>Experiment Site</title>
+   <link type="text/css" href="assets/css/bootstrap.min.css" rel="stylesheet" />
+   <!-- jquery UI -->
+   <link type="text/css" href="assets/jqueryui/css/smoothness/jquery-ui-1.10.2.custom.min.css" rel="stylesheet" />
+   <!-- tablecloth.js -->
+   <link type="text/css" href="assets/tablecloth.js/css/bootstrap-tables.css" rel="stylesheet" />
+   <link type="text/css" href="assets/tablecloth.js/css/tablecloth.css" rel="stylesheet" />
+   <!-- bootstrap-switch-master -->
+   <link type="text/css" href="assets/bootstrap-switch-master/stylesheets/bootstrapSwitch.css" rel="stylesheet" />
+   <!-- editable -->
+   <link type="text/css" href="assets/bootstrap-editable/css/bootstrap-editable.css" rel="stylesheet" />
+   
+  <style>
+    #feedback { font-size: 1.4em; }
+    #selectable .ui-selecting { background: #FECA40; }
+    #selectable .ui-selected { background: #F39814; color: white; }
+    #selectable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+    #selectable li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px; }
+  </style>  
+</head>
+<body>
+    <script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="assets/jqueryui/js/jquery-ui-1.10.2.custom.min.js"></script>
+    <!-- bootstrap -->
+    <script type="text/javascript" src="assets/bootstrap-switch-master/js/bootstrapSwitch.js"></script>
+    <!-- bootstrap-editable -->
+    <script type="text/javascript" src="assets/bootstrap-editable/js/bootstrap-editable.min.js"></script>
+    
+    <div  class="pull-left">
+        <div id="mySwitch" class="normal-toggle-button">
+                <input type="checkbox">
+        </div>
+        <p id="magic-text">None</p>
+    </div>
+
+    <div>
+       <a class="editable" href="#" id="username" data-type="text" data-pk="1" data-url="#" data-original-title="Enter username">superuser</a> 
+    </div>
+    
+    <script>
+        $.fn.editable.defaults.mode = 'inline';
+        $('#username').editable();
+    // bootstrap switch master    
+    $("#mySwitch").bootstrapSwitch();
+    $("#mySwitch").on('switch-change', function(e, data){
+            var $el = $(data.el), value = data.value;
+            console.log(e, $el, value);
+            $('#magic-text').text('Status is: ' + value);
+            $("#username").editable({disable: value});
+    });
+    </script>
+   
+</body>
+</html>
