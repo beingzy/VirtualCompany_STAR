@@ -46,5 +46,5 @@ if($db->connect_errno > 0) die("Unable to connect to database: ". $db->connect_e
 ```
 
 STEP 03: Initiate your database for Virtual Company by excuting the file "etc/www/vc/php/db/create_db.php".
-This operation is conducted by visiting this page via a client brower: "URL/php/db/create_db.php".
+This operation is conducted by visiting this page via a client brower: "http(s)://URL/php/db/create_db.php".
 (NOTE: The IP should be directed to the "/etc/www/vc/" by Apache configuration.) 
