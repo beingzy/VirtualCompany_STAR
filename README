@@ -24,6 +24,8 @@ a. Make your the folder (assume your install it in "/etc/www/vc/") for Virtual C
 b. Create a database for virtual company in mysql, creating a user with write rights to the virtual comapny database.
 
 STEP 02: Use text editor to fill the database information in "/etc/www/vc/php/db/db_connection.php" for MySQL connection.
+The code looks like below:
+
 ```
 <?php
 // MySQL database connection
@@ -39,6 +41,7 @@ if($db->connect_errno > 0) die("Unable to connect to database: ". $db->connect_e
 
 ?>
 ```
+
 STEP 03: Initiate your database for Virtual Company by excuting the file "etc/www/vc/php/db/create_db.php".
 This operation is conducted by visiting this page via a client brower: "URL/php/db/create_db.php".
 (NOTE: The IP should be directed to the "/etc/www/vc/" by Apache configuration.) 
