@@ -5,7 +5,7 @@ a. Background: this web application is developed to facilitate a NSF project's n
 Seamless Transcition from Acamdemia to Real-world. For a short introduction, this project is to implant 
 the real-world projects from big companies, the current partner: GE, into classroom education. The projects had been tailored 
 to be fitted to course's currciulumn. To simulate the real-world working environment, students of this new education system 
-are asked to work for these projects as engineers of a virtual company.)
+are asked to work for these projects as engineers of a virtual company.)\\
 
 b. Web application (Virtual Company): the mission of this web application is to delivery: 1)the distribution of projects'
 multi-media materials to the "engineers"; 2)text communication among engineers, directors and consultants; 3) submitting of
