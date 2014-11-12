@@ -1,8 +1,7 @@
 STAR Virtual Company
 =====================
 
-INTRODCUTION:
--------------
+## INTRODCUTION:
 a. Background: this web application is developed to facilitate a NSF project's needs (Project Title:
 Seamless Transcition from Acamdemia to Real-world. For a short introduction, this project is to implant 
 the real-world projects from big companies, the current partner: GE, into classroom education. The projects had been tailored 
@@ -20,8 +19,7 @@ are included. Suggested Server OS is Ubuntu Server 12.04 64bit with LAMP; There 
 d. a living intance can be visited at url: http://uc-star.info/v1.9.uc-star.info/
 
 
-FEATURE LIST:
--------------
+## FEATURE LIST:
 a. **A complete web site housing varieties of web pages to present information:**
  * Home Page
  ![Home Page](/README/home_page.png)
@@ -55,9 +53,7 @@ e. **Web Adminstrator Dashboard**
 
 
 
-INSTALLATION:
---------------
-
+## INSTALLATION:
 STEP 01: Install Apache, MySQL and PHP. <br /> 
 a. Make your the folder (assume your install it in "/etc/www/vc/") for Virtual Company is accessible through client internet brower.<br /> 
 b. Create a database for virtual company in mysql, creating a user with write rights to the virtual comapny database.<br /> 
