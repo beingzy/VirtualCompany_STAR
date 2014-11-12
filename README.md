@@ -1,5 +1,6 @@
 STAR Virtual Company
 =====================
+
 INTRODCUTION:
 -------------
 a. Background: this web application is developed to facilitate a NSF project's needs (Project Title:
@@ -17,6 +18,29 @@ c. Techniques Summary:  JavaScript, PHP, MySQL, HTML, CSS, Twitter's bootstrap
 are included. Suggested Server OS is Ubuntu Server 12.04 64bit with LAMP; There are a number of dependent open source library had been utilized.)
 
 d. a living intance can be visited at url: http://uc-star.info/v1.9.uc-star.info/
+
+FEATURE LIST:
+-------------
+a. **A complete portfolio:**
+	* Home Page
+	![Home Page](/README/home_page)
+
+	* Department Page/Project Portfolio
+	![project_portfolio](/README/Project Portfolio)
+
+	* 
+
+b. **Multi-role User System: Engineer, Director and Consultant**
+  *According to setting of web application, a user have to be created with a specific role and associated with a particular collection of resouce access, authorization, interfrace layout and etc.*
+  []
+
+b. **Centralized information hub**
+	*all parties, engineer, director and consultant, can send real-time messages and other resource (project files) via dedicated channel.*
+
+c. 
+
+
+
 
 
 INSTALLATION:
