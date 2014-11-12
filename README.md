@@ -22,21 +22,23 @@ d. a living intance can be visited at url: http://uc-star.info/v1.9.uc-star.info
 FEATURE LIST:
 -------------
 a. **A complete web site housing varieties of web pages to present information:**
-	* Home Page
-	![Home Page](/README/home_page.png)
+ * Home Page
+ ![Home Page](/README/home_page.png)
 
-	* Department Page/Project Portfolio
-	![Department Page](/README/project_portfolio.png)
+ * Department Page (Project Portfolio)
+ ![Department Page](/README/project_portfolio.png)
 
-	* Project Page
-	![Project Page](/README/project_page.png)
+ * Project Page
+ ![Project Page](/README/project_page.png)
 
 b. **Multi-role User System: Engineer, Director and Consultant**
   *According to setting of web application, a user have to be created with a specific role and associated with a particular collection of resouce access, authorization, interfrace layout and etc.*
-  []
+ * Login Page
+ ![login Page](/README/login_page.png)
 
-b. **Centralized information hub**
-	*all parties, engineer, director and consultant, can send real-time messages and other resource (project files) via dedicated channel.*
+b. **Customizable User Dashboard Centralizing information **
+ *all parties, engineer, director and consultant, can send real-time messages and other resource (project files) via dedicated channel.*
+ ![Dashboard](/README/info_hub.png)
 
 c. 
 
