@@ -47,7 +47,7 @@ c. **Dynamic UI to group users and assign to project**
 ![User Drag UI](/README/teamui_drag.png)
 
 d. **WYSIWYG Text Editor**
-![Text Editor](text_editor.png)
+![Text Editor](/README/text_editor.png)
 
 e. **Web Adminstrator Dashboard**
 ![admin_page](/README/admin_page.png)
